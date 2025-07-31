@@ -8,15 +8,27 @@
 | position      | Int    | Sorting number start from zero                                   |
 #}
 <section class="s-block s-block--features container">
-    <div class="grid grid-cols-[repeat(2,minmax(0,1fr))] md:grid-cols-[repeat(3,minmax(0,1fr))] gap-4 sm:gap-6 xl:gap-8">
-      {% for item in items %}
-          <div class="s-block--features__item">
-            <div class="feature-icon">
-              <i class="{{ item.icon }}"></i>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="feature-item text-center">
+            <div class="feature-icon text-primary text-4xl mb-4">
+                <i class="sicon-rocket"></i>
             </div>
-            <h2>{{ item.title }}</h2>
-            <p>{{ item.text }}</p>
-          </div>
-      {% endfor %}
+            <h3 class="text-lg font-bold text-secondary">تسليم فوري</h3>
+            <p class="text-gray-600">استلم منتجاتك الرقمية فوراً بعد الدفع</p>
+        </div>
+        <div class="feature-item text-center">
+            <div class="feature-icon text-primary text-4xl mb-4">
+                <i class="sicon-headset"></i>
+            </div>
+            <h3 class="text-lg font-bold text-secondary">دعم فني 24/7</h3>
+            <p class="text-gray-600">فريقنا جاهز لمساعدتك على مدار الساعة</p>
+        </div>
+        <div class="feature-item text-center">
+            <div class="feature-icon text-primary text-4xl mb-4">
+                <i class="sicon-credit-card"></i>
+            </div>
+            <h3 class="text-lg font-bold text-secondary">دفع آمن</h3>
+            <p class="text-gray-600">نستخدم أحدث تقنيات التشفير لحماية بياناتك</p>
+        </div>
     </div>
 </section>

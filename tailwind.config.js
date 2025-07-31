@@ -30,10 +30,12 @@ module.exports = {
             gridTemplateColumns: {
                 'auto-fill'  : 'repeat(auto-fill, 290px)',
             },
-            colors             : {
-                'dark'         : '#1D1F1F',
-                'darker'       : '#0E0F0F',
-                'danger'       : '#AE0A0A'
+            colors: {
+                primary: '#0d6efd',
+                secondary: '#198754',
+                'dark': '#1D1F1F',
+                'darker': '#0E0F0F',
+                'danger': '#AE0A0A',
             },
             spacing: {
               '3.75': '15px',
